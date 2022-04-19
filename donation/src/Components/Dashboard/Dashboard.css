@@ -1,12 +1,12 @@
 .cont-dashboard {
-	display: flex;
-	/* flex-wrap: wrap; */
-	justify-content: center;
-	margin-top: 11vh;
-	gap: 2rem;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  margin-top: 11vh;
+  gap: 2rem;
 }
 @media (max-width: 845px) {
-	.profile-card {
-		display: none;
-	}
+  .profile-card {
+    display: none;
+  }
 }
