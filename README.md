@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+# DoNation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary><br />
+  <ol>
+    <li>
+      <a href="#about-the-project">What is DoNation?</a>
+      </li>
+      <li>
+      <a href="#screenshots">Screenshots</a>
+      </li>
+       <li>
+         <a href="#backend">Backend repository</a>
+      </li>
+    <li><a href="#features">Features</a>
+    </li>
+    <li><a href="#tech-stack">Tech Stack used</a>
+    </li>
+      <li><a href="#local-setup">Local Setup</a></li>
+    <li><a href="#team">Team Members</a></li>
+  </ol>
+</details>
 
-## Available Scripts
+<div id="about-the-project" />
+<!-- ABOUT THE PROJECT -->
 
-In the project directory, you can run:
+# About DoNation
 
-### `npm start`
+DoNation is an online donation portal that helps in reducing the barrier between a donor and acceptor.
+The following software requirements document specifies its software design in detail. The design specifications are based on the functional features, non-functional features, limitations, and the interface of the software. It will help in a social welfare cause as it will help in reducing the problems of poor people and bring smiles to many faces.DoNation intends to fill this need by providing the software for the same. To have a smooth execution of the plan from the very first step to the last, a well-defined requirements document is needed.
+This document represents the Coding Phase of the project. It includes the details of the implemented modules as well as detailed accounts of the individual contributions on Github. All the contributions are made on the DoNation repository.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<div id="screenshots" />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Screenshots
 
-### `npm test`
+Screenshots of our website are added to [this link](https://photos.app.goo.gl/XzMd2bZgjn5LBq7DA).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<div id="backend" />
 
-### `npm run build`
+# Backend Repo of the project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Click on [this link](https://github.com/thebeast1819/Donation_Backend) to have a look at the backend.
+<br />
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<div id="features" />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- GETTING STARTED -->
 
-### `npm run eject`
+# Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Users can post their items which they want to donate and other user who are in need, they can get it.
+- If a user requires something, they can post a requirement for that.
+- Directly chat with the owner of the product for getting any item.
+- If someone wants to raise a hand on a donated item, they can easily do that.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<div id="tech-stack" />
+         
+# Tech Stack Used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- MongoDB
+- Express
+- React JS
+- Node.js
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<div id="local-setup" />
 
-## Learn More
+# Local Setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To set up DoNation for development, you need to follow the steps mentioned below:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Step 1: Install Node.js from the [Node.js official website](https://nodejs.org/en/).
 
-### Code Splitting
+During the developement process, I used node version `v16.13.0`. You can check your node version by running the following command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```shell
+node -v
+```
 
-### Analyzing the Bundle Size
+### Step 2: Setup [React](https://github.com/facebook/create-react-app) environment.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Follow the steps mentioned in the official documentation to setup the environment.
 
-### Making a Progressive Web App
+### Step 3: Clone the repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    git clone https://github.com/thebeast1819/DoNation.git
 
-### Advanced Configuration
+### Step 4: Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+    npm install
 
-### Deployment
+### Step 5: Running the application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Run the app in the development mode.
+Just type `npm start` in the terminal to open the website.
 
-### `npm run build` fails to minify
+## Environemnt Variables
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```dosini
+REACT_APP_GOOGLE_CLIENT_ID=""
+```
+
+<div id="team" />
+<!-- CONTACT -->
+
+# Team
+
+- Aman Vaishya 2020-IMG-008
+- Sahil Mittal 2020-IMG-054
+- Mandeep Mallik 2020-IMG-035
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
