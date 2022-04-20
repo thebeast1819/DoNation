@@ -1,6 +1,5 @@
 import React from 'react';
 import Card from '../card/Card';
-// import lost_found from '../../../assests/lost_found.png';
 import buy_sell from '../../../assests/buy_sell.png';
 import requirement from '../../../assests/requirement.png';
 import lostfound1 from '../../../assests/lostfound1.jpg';
@@ -17,8 +16,8 @@ const Feature = () => (
       <h1>Features</h1>
     </div>
       <div className="feature-container_cards3">
-        <Card imgUrl={lostfound1} text="Lost/Found" />
-        <Card imgUrl={buyonline} text="Buy/Sell" />
+        <Card imgUrl={lostfound1} text="Donate" />
+        <Card imgUrl={buyonline} text="Volunteer" />
         <Card imgUrl={rquire1} text="Requirement" />
       </div>
   </div>

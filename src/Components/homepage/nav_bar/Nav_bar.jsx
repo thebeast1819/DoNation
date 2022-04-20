@@ -11,8 +11,7 @@ const Nav_bar = () => {
     <div className="navbar3">
       <div className="navbar-links3">
         <div className="navbar-links_logo3">
-          <img src="https://res.cloudinary.com/kartikeyvaish/image/upload/v1642841457/Kolegia/logo_snpqqs.png" alt="" />
-          <p id='abcd'>olegia</p>
+          <p id='abcd'>DoNation</p>
         </div>
         <div className="navbar-links_container3">
           <p><a href="#feature">Features</a></p>

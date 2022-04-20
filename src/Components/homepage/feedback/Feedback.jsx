@@ -9,19 +9,19 @@ const Feedback = () => {
     const testiMonials = [
         {
             user : "Vikas" ,
-            message : "It is so helpful. I forgot my assignment file in the IEEE Lab and when I checked in that room, it was not there. So I posted it on Kolegia and the one who took it returned it back. Thanks to Kolegia." 
+            message : "It is so helpful. I was in need of an old laptop for my preparation and I came on this portal where I got it. Now,it helps me in my preparation. Thanks to DoNation team." 
         },
         {
             user : "Manish" ,
-            message : "Kolegia helped me a lot. I used to forget my small goods here and there when I was in my first year but thanks to Kolegia."
+            message : "My clothes were in good condition but I didn't want to wear those so I donated it on this portal and it went in good hands. Thanks to DoNation team."
         },
         {
             user : "Akash" ,
-            message : "When I was new in the college, I don't have laptop and at that time, I was not in the condition to buy a new laptop. I was confused how to ask seniors if they want to sell their old laptop but then I came to know about Kolegia and my problem was solved." 
+            message : "I was in need of a bike so that I can start my delivery job. I posted that in requirement feed and after 3 days, someone posted that and after talking to that person, I got that and now I can do my job. Thanks DoNation." 
         },
         {
             user : "Vaibhav" ,
-            message : "Kolegia is such a helpful platform for all the students in such a big college. It provides a lot of functionality which helps to solve common problems of students."
+            message : "DoNation is such a helpful platform for all the person who want to contribute for social welfare as well as the person who are in need. It provides a lot of functionality which helps to solve common problems of people."
         },
     ]
 

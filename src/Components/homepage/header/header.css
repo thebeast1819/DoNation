@@ -1,7 +1,7 @@
 .header3 {
     display: flex;
     flex-direction: row;
-    margin-top: 6rem;
+    margin-top: 8rem;
 }
 
 .header-content3 {
@@ -37,7 +37,7 @@
     color: white;
     border: none;
     border-radius: 0.3rem;
-    background-color: var(--color-primary);
+    background-color: rgb(245, 158, 59);
     
 }
 
@@ -45,7 +45,7 @@
     flex: 1;
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin-right: 2rem;
 }
 
 .header-image3 img {

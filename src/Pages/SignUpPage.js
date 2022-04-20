@@ -133,7 +133,7 @@ const handleSubmitSignUp=()=>{
             <div className="overlay2">
               <div className="overlay-panel ">
                 {/* <h1 className='h1'>You're Welcome</h1> */}
-                <p className='p'>Login to enter Kolegia</p>
+                <p className='p'>Login to enter DoNation</p>
             <button onClick={handleClick}  style={{borderRadius:'50px'}} className="ghost button" id="signIn" >Sign In</button>
               </div>
               

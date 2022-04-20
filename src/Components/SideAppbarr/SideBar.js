@@ -129,15 +129,15 @@ export default function SideBar() {
     },
 
     { 
-      text: 'My BuySell Items', 
+      text: 'My Donated Items', 
       icon: <ShoppingCartIcon  />, 
       path: '/sidebar/myOwnBuySellItems' 
     },
-    { 
-      text: 'Lost/Found items', 
-      icon: <ContentPasteSearchIcon />, 
-      path: '/sidebar/myOwnLostFoundItems' 
-    },
+    // { 
+    //   text: 'Lost/Found items', 
+    //   icon: <ContentPasteSearchIcon />, 
+    //   path: '/sidebar/myOwnLostFoundItems' 
+    // },
     { 
       text: 'My Requirements', 
       icon: <FormatListBulletedIcon  />, 
@@ -174,7 +174,7 @@ export default function SideBar() {
             >
               <ListItemIcon className={classes.icon02}><HomeIcon  /></ListItemIcon>
               <ListItemText  className={classes.title} primary={<Typography  variant="h5" className={classes.title}>
-           KOLEGIA
+           DoNation
           </Typography>} />
             </ListItem>
         </div>

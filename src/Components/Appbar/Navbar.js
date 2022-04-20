@@ -59,8 +59,7 @@ const Navbar = ({visibleSearch,presentPage}) => {
         <div className="container-nav">
             <div className="part_one">
                 <div onClick={()=>navigate('/dashboard')} className="header1">
-                    <img src="https://res.cloudinary.com/kartikeyvaish/image/upload/v1642841457/Kolegia/logo_snpqqs.png" alt="" />
-                    <p id='abc'>olegia</p>
+                    <p id='abc'>DoNation</p>
                 </div>
                 <div className='ul'>
                     {visibleSearch?

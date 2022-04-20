@@ -94,7 +94,7 @@ cont:{
             <input onChange={(e)=>setOtp(e.target.value)} style={{width:'12rem',height:'2rem',fontFamily:"Inter, sans-serif",fontWeight:'700'}} type="number" placeholder="OTP"/>
            
             <LoadingButton
-                style={{width:'13rem',color:'white',fontFamily:'Inter,sans-serif',background:'#332A7C',borderRadius:'10px',margin:'20px',height:'2.8rem',fontWeight:'700'}}
+                style={{width:'13rem',color:'white',fontFamily:'Inter,sans-serif',background:'rgb(245, 158, 59)',borderRadius:'10px',margin:'20px',height:'2.8rem',fontWeight:'700'}}
                 className='submit button'
         onClick={handleClick}
         endIcon={<ArrowForwardIosIcon/>}

@@ -84,7 +84,7 @@ function ProductDetails() {
         // initial_message: message,
       };
       const res = await axios.post(
-        "https://donation-team.herokuapp.com/api/v1/chats/get-or-create-chat-room",
+        "https://kolegia.herokuapp.com/api/v1/chats/get-or-create-chat-room",
         data,
         {
           headers: {

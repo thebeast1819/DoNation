@@ -31,16 +31,10 @@ const Dcards = () => {
 
   const data = [
     {
-      Title: "Lost-Found",
+      Title: "Donate",
       img: Lostfound,
       button_title: "Explore",
       path: "/lostFound",
-    },
-    {
-      Title: "Buy-Sell",
-      img: Buy,
-      button_title: "Explore",
-      path: "/buySell",
     },
     {
       Title: "Requirements",
