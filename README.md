@@ -35,7 +35,7 @@ This document represents the Coding Phase of the project. It includes the detail
 
 # Screenshots
 
-Screenshots of our website are added to [this link](https://photos.app.goo.gl/XzMd2bZgjn5LBq7DA).
+Screenshots of our website are added to [this link](https://drive.google.com/drive/folders/1oa1kgPisavYvy2VV5ctrPd2weMLCN9tu?usp=sharing).
 
 <div id="backend" />
 
